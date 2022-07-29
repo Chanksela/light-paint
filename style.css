@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 400px;
+  max-width: 500px;
 }
 .square {
   background-color: rgb(13, 42, 59);
@@ -29,4 +29,7 @@ body {
 }
 .square:hover {
   transition-duration: 0s;
+}
+#header {
+  transition: 0.3s ease;
 }
